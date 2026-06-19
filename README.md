@@ -54,6 +54,7 @@ Then in **CodexBar → Settings → Providers**:
 - Use browser-cookie sources only when you need dashboard extras and are comfortable with the macOS Keychain/browser prompts.
 - Turn on notifications if reset windows matter to your session planning.
 - Optional: install the bundled CLI from **Settings → Advanced → Install CLI** for scripts and dashboards.
+- Claude note: if you see `Claude OAuth token missing 'user:profile' scope`, either run `claude setup-token` to regenerate Claude Code credentials with the usage scope, or switch **Settings → Providers → Claude → Usage source** to **CLI** or **Web**.
 
 More detail: [Sesher comparison](docs/sesher.md).
 

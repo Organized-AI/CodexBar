@@ -85,6 +85,15 @@ CodexBar is not a drop-in product replacement for Sesher. A practical migration 
 3. Use CodexBar's menu bar and reset countdowns to decide when to launch long-running AI coding tasks.
 4. Keep Sesher or a Sesher-like workflow for human session preparation, coaching reports, and meeting guidance.
 
+### Claude setup note
+
+If CodexBar reports `Claude OAuth token missing 'user:profile' scope`, the Claude Code token it found can run inference but cannot call the Claude usage endpoint. Choose one path:
+
+- run `claude setup-token` to regenerate credentials with the required usage/profile scope, then keep Claude usage source on Auto/OAuth; or
+- switch **CodexBar → Settings → Providers → Claude → Usage source** to **CLI** or **Web**.
+
+CLI mode is usually the least invasive workaround for a Sesher + CodexBar setup because it relies on the already-installed Claude Code CLI instead of browser-cookie import.
+
 ## When to use both
 
 A common combined workflow:
