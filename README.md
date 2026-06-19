@@ -180,6 +180,7 @@ Wondering if CodexBar scans your disk? It doesn’t crawl your filesystem; it re
 - UI & icon notes: [docs/ui.md](docs/ui.md)
 - CLI reference: [docs/cli.md](docs/cli.md)
 - Configuration: [docs/configuration.md](docs/configuration.md)
+- Sesher comparison: [docs/sesher.md](docs/sesher.md)
 - Keychain prompts: [docs/keychain-prompts.md](docs/keychain-prompts.md)
 - CLI configuration: [docs/cli-configuration.md](docs/cli-configuration.md)
 - Widgets: [docs/widgets.md](docs/widgets.md)
