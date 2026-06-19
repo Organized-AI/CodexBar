@@ -22,6 +22,41 @@ Tiny macOS 14+ menu bar app that keeps **AI coding-provider limits visible** and
 - **Live status.** Provider status polling surfaces incident badges in the menu and an indicator overlay on the bar icon.
 - **Privacy-first.** Reuses existing provider sessions — OAuth, device flow, API keys, browser cookies, local files — so no passwords are stored.
 
+## Sesher + CodexBar essential guide
+
+Sesher and CodexBar work best together when you separate the **human session** from the **AI coding quota**.
+Sesher is the session companion: it helps clarify Session DNA, meeting goals, conversation moves, agendas, repair prompts,
+and follow-through. CodexBar is the menu bar meter: it tells you whether Codex, Claude Code, Cursor, Gemini, Copilot,
+OpenRouter, LiteLLM, and other AI coding providers have enough available quota for the work Sesher helps you plan.
+
+Use CodexBar instead of Sesher only for the quota/status part. Keep Sesher or a Sesher-style workflow for coaching,
+meeting preparation, archetypes, reports, and debriefs.
+
+### Recommended workflow
+
+1. **Plan the session in Sesher.** Define the goal, desired output, constraints, and next move for the conversation or work block.
+2. **Check CodexBar before launching AI work.** Confirm the relevant provider has enough session/weekly/monthly quota and note the reset countdown.
+3. **Pick the provider intentionally.** If Codex is near its limit but Claude or another provider is healthy, switch before starting a long task.
+4. **Run the AI-assisted build/research pass.** Use the provider whose quota window best fits the job.
+5. **Return to Sesher for follow-through.** Capture decisions, debrief the session, and turn outputs into the next agenda or playbook.
+
+### Setup checklist
+
+```bash
+brew install --cask codexbar
+open -a CodexBar
+```
+
+Then in **CodexBar → Settings → Providers**:
+
+- Enable only the providers you actually use with Sesher-backed work sessions.
+- Prefer local CLI, OAuth, or API-key sources when available.
+- Use browser-cookie sources only when you need dashboard extras and are comfortable with the macOS Keychain/browser prompts.
+- Turn on notifications if reset windows matter to your session planning.
+- Optional: install the bundled CLI from **Settings → Advanced → Install CLI** for scripts and dashboards.
+
+More detail: [Sesher comparison](docs/sesher.md).
+
 ## Install
 
 ### Requirements
