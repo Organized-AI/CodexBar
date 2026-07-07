@@ -127,6 +127,7 @@ See [CLI configuration](docs/cli-configuration.md) for the full flow.
 - [Deepgram](docs/deepgram.md) — API key usage summaries across speech, agent, token, and TTS metrics.
 - [Poe](docs/poe.md) — API key for current point balance and recent points history.
 - [Chutes](docs/chutes.md) — API key for subscription usage, rolling and monthly quota windows, and pay-as-you-go quotas.
+- [Fable](docs/fable.md) — Organized AI fleet: live Claude 5h/weekly limit meters plus a cross-runtime model leaderboard (Claude Code JSONL, Codex sessions, local LLMs) from the fable-cal API; no auth required.
 - Open to new providers: [provider authoring guide](docs/provider.md).
 
 ## Icon & Screenshot
